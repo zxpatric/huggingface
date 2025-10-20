@@ -1,0 +1,12 @@
+[project]
+name = "huggingface"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets[audio,vision]>=4.2.0",
+    "smolagents[litellm,toolkit,transformers]>=1.22.0",
+    "torchvision>=0.24.0",
+    "transformers>=4.57.1",
+]
